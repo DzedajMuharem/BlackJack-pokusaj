@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.table {
+  width: 80%;
+  height: 80vh;
+  background-color: green;
+  margin: auto;
+  border-bottom-right-radius: 300px;
+  border-bottom-left-radius: 300px;
+  border: 30px solid rgb(84, 65, 40);
+}
+
+.table h1 {
+  font-family: "Moon Dance", cursive;
+  text-align: center;
+  font-size: 80px;
+  margin-left: -250px;
+}
+.table .header {
+  display: flex;
+}
+header img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 55%;
+  top: -90px;
+}
+.table footer {
+  display: flex;
+}
+
+.table .karte {
+  width: 100px;
+  height: 160px;
+  border: 1px solid white;
+  margin: 80px;
+  position: relative;
+  left: 270px;
+  bottom: 30px;
+}
+footer .karte img {
+  width: 100px;
+  height: 160px;
+}
+button {
+  font-size: 20px;
+  display: block;
+  margin: 20px;
+  width: 80px;
+}
+
+.novaIgra {
+  position: relative;
+  left: 80%;
+  bottom: 95%;
+}
+
+.hithold {
+  position: relative;
+  left: 40.4%;
+  bottom: 68%;
+}
+
+footer p {
+  position: relative;
+  left: 12%;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+.novaIgra p {
+  font-size: 23px;
+  color: whitesmoke;
+}
+.novaIgra input {
+  width: 50px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.novaIgra .poruka {
+  color: rgb(242, 159, 44);
+  margin-top: 10px;
+}
+
+.ispod {
+  position: relative;
+  left: -50px;
+}
+.diler {
+  margin-left: -35px;
+}
+.hidden {
+  display: none;
+}

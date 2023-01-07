@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="table">
+      <header>
+        <h1>BlackJack</h1>
+        <img
+          src="deck_of_cards_pc_800_wht-removebg-preview.png"
+          alt="Deck of cards"
+        />
+      </header>
+      <footer>
+        <div class="karte igrac0">
+          <img src="images/karta-5.png" class="slika" alt="Slika karte" />
+        </div>
+        <p class="broj0">0</p>
+        <div class="karte igrac0"></div>
+        <p class="diler">Diler: <span class="broj1">0</span></p>
+      </footer>
+      <div class="novaIgra jos">
+        <button class="btn nova-igra">New game</button>
+        <button class="btn ulozi">Ulozi</button>
+        <div class="ispod">
+          <input type="number" min="1" class="ulog" />
+          <p class="ukupni-cipova">
+            Ukupno cipova: <span class="cipovi">100</span>
+          </p>
+          <p class="poruka">Radil</p>
+        </div>
+      </div>
+      <div class="hithold">
+        <button class="btn hit">Hit</button>
+        <button class="btn hold">Hold</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
